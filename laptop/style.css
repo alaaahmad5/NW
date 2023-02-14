@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system;
+}
+a {
+  text-decoration: none;
+}
+body {
+  /* background-color: whitesmoke; */
+  background-color: #8AA8FF;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid #49bdef;
+  height: 15vh;
+  /* position: fixed; */
+  width: 100vw;
+  background-color: whitesmoke;
+}
+.logo {
+  display: flex;
+  margin: 0 2%;
+}
+.logo img {
+  width: 10vw;
+  height: 15vh;
+  margin: 0 auto;
+}
+.list {
+  width: 40vw;
+  text-align: center;
+  padding: 10px;
+}
+.list a {
+  margin: 0px 2vw;
+  color: #191919;
+  text-transform: capitalize;
+  padding: 5px;
+  border-radius: 10px;
+}
+.list a:hover {
+  background-color: #19191950;
+}
+
+.per-info a {
+  color: #191919;
+  text-transform: capitalize;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.ac-info {
+  margin-top: 15px !important;
+  display: flex;
+}
+.ac-info a {
+  margin: 0px 2vw;
+  color: #191919;
+  padding-bottom: 5px;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.border-b {
+  background-color: #49bdef;
+  width: 5px;
+  height: 3px;
+  transition-duration: 300ms;
+}
+.con:hover .border-b {
+  width: 50px;
+}
+.laptop-section {
+    width: 100vw;
+    height: 60vh;
+  display: flex;
+  background: linear-gradient(to right, #434656, #315DAF);
+}
+.img-laptop {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-laptop img {
+  width: 75%;
+  /* margin-top: 20%; */
+  /* margin-left: -5%; */
+}
+.des-laptop {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.section-btn {
+  margin-top: 20px;
+  padding: 4vh 0;
+  width: 9vw;
+  background-color: transparent;
+  color: #fff;
+  border: 0.5px solid whitesmoke;
+  transition-duration: 300ms;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+}
+.brands-section {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #8AA8FF;
+  /* background: linear-gradient(to bottom,whitesmoke,#858FBB); */
+  border-bottom: #002C75 2px solid;
+  padding: 3%;
+  border-radius: 0 0 10px;
+  box-shadow: 10px 10px 100px #191919;
+}
+.brands-section a {
+  font-size: 1.5rem;
+  color: #191919;
+  text-transform: capitalize;
+  border-bottom: #002C75 1px solid;
+  padding: 5px;
+  transition-duration: 300ms;
+}
+
+/* second section */
+.second-section {
+  display: flex;
+  margin: 5% 0;
+  padding: 1%;
+  width: 100vw;
+  /* justify-content: space-around; */
+  /* align-items:flex-start; */
+}
+.left-list {
+  width: 25%;
+  border: 2px solid #002C75;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 100px #191919;
+}
+.left-list h3 {
+  margin: 15% 0 0;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.left-list p {
+  margin: 5% 1% 0;
+}
+.post-section {
+  width: 75%;
+  height: 100%;
+  padding: 0 4%;
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-items: flex-end; */
+  flex-wrap: wrap;
+}
+.card-con {
+  width: 20vw;
+  height: 50vh;
+  border-radius: 10px;
+  border: 2px solid #002C75;
+  padding: 2%;
+  box-shadow: 10px 10px 100px #191919;
+  margin: 0 1% 5%;
+}
+.card-img {
+  text-align: center;
+  height: 40%;
+}
+.card-img img {
+  width: 75%;
+  
+}
+.card-des {
+  text-align: center;
+  height: 50%;
+}
+.card-des h2 {
+  margin: 2% 0 4%;
+  text-transform: capitalize;
+}
+.card-des p {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.card-des h3 {
+  color: green;
+  background-color: #fff;
+  margin: 4% 0;
+  padding: 2%;
+  border-radius: 20px;
+}
+.card-des a {
+  border-bottom: 2px solid #002C75;
+  padding: 2%;
+  color: #191919;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+.card-des a:hover {
+  font-size: 1.3rem;
+}
+footer{
+  padding: 2%;
+  text-align: center;
+  background-color: whitesmoke;
+}
